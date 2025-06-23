@@ -17,3 +17,12 @@ let multiplyMe = 32;
 multiplyMe *= 11;
 let quarterMe = 1152;
 quarterMe /= 4;
+let gainedDollar = 3;
+gainedDollar++;
+console.log(gainedDollar)
+let lostDollar = 50;
+lostDollar--;
+console.log(lostDollar)
+let a = 10;
+a++;
+console.log(a)
