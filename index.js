@@ -4,3 +4,6 @@ var favoriteFood = 'pizza' ;
 var numberOfSlices = 8 ;
 console.log(favoriteFood) ;
 console.log(numberOfSlices) ;
+let changeMe = true ;
+changeMe = false ;
+console.log(changeMe) ;
