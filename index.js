@@ -7,3 +7,5 @@ console.log(numberOfSlices) ;
 let changeMe = true ;
 changeMe = false ;
 console.log(changeMe) ;
+const entree = 'Enchiladas' ;
+console.log(entree) ;
