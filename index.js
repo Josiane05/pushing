@@ -1,3 +1,6 @@
 console.log("my name is josiane mushimiyimana");
 console.log("hey");
-console.log('whatsappgit')
+var favoriteFood = 'pizza' ;
+var numberOfSlices = 8 ;
+console.log(favoriteFood) ;
+console.log(numberOfSlices) ;
