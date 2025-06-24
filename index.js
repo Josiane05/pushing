@@ -29,3 +29,8 @@ console.log(a)
 let favoriteAnimal = "Gorilla";
 console.log("My favorite Animal: " +
     favoriteAnimal);
+    const myPet = "armadillo";
+    console.log(`I own a pet ${myPet}.`);
+    var myName = "josiane";
+    var myCity = "kigali";
+    console.log(`my name is ${myName}. my favorite city is ${myCity}.`);
