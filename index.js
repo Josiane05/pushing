@@ -26,3 +26,6 @@ console.log(lostDollar)
 let a = 10;
 a++;
 console.log(a)
+let favoriteAnimal = "Gorilla";
+console.log("My favorite Animal: " +
+    favoriteAnimal);
