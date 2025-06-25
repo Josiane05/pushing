@@ -128,5 +128,9 @@
         </article>
     </section>
 </body>
+const items = document.getElementsByClassName('secondary');
+const data = Array.of(...items).map((item) => item.textContent);
+
+console.log(data);
 </html>
 
