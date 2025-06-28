@@ -7,7 +7,10 @@
 <body>
 let div = document.createElement('div');
 div.id = 'content';
+div.className = 'note';
 div.innerHtml - '<p> createElement Example<p>'
+    let text = document.createTextNode('createElement Example');
+    div.appendChild(text)
     document.body.appendChild(div);
 </body>
 </html>
