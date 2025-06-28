@@ -6,3 +6,4 @@ let curre = document.querySelector('.current');
 let prevSiblings = current.previousElementSibling;
 
 console.log(prevSiblings);
+let menu = document.getElementById("menu");
