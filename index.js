@@ -38,3 +38,10 @@ console.log("My favorite Animal: " +
     console.log(typeof newVariable);
     newvariable = 1;
     console.log(typeof newVariable);
+    let div = document.querySelector('div');
+
+console.log(div.parentNode);        // → <body>
+console.log(div.childNodes);        // → NodeList of <p>Hello</p> and <p>World</p>
+console.log(div.firstChild);        // → Could be a text node (like newline or space)
+console.log(div.firstElementChild); // → <p>Hello</p>
+console.log(div.lastElementChild);  // → <p>World</p>
