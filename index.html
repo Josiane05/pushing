@@ -5,18 +5,13 @@
 </head>
 
 <body>
-    <div>
-        <h1 class="message">First Heading</h1>
-        <div id="container">
-        <h1 class="message">Second Heading</h1>
-        <h1 class="message">Third Heading</h1>
-        </div>
+    <div class="title">
+        <p class="text">Welcome to GreatStack</p>
     </div>
-
+    
     <script>
-        let cont = document.getElementById("container");
-        let msg = cont.querySelectorAll(".message");
-        console.log(msg);
+        let txt = document.querySelector(".text");
+        console.log(txt.parentNode);
     </script>
 </body>
 </html>
