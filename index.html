@@ -6,12 +6,16 @@
 
 <body>
     <div class="title">
-        <p class="text">Welcome to GreatStack</p>
+        <p>Welcome to GreatStack 1</p>
+        <p>Welcome to GreatStack 2</p>
+        <p>Welcome to GreatStack 3</p>
+        <p>Welcome to GreatStack 4</p>
     </div>
-    
+
     <script>
-        let txt = document.querySelector(".text");
-        console.log(txt.parentNode);
+        let parent = document.querySelector(".title");
+        
+        console.log(parent.firstChild);
     </script>
 </body>
 </html>
