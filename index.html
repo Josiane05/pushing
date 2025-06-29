@@ -7,15 +7,15 @@
 <body>
     <div class="title">
         <p>Welcome to GreatStack 1</p>
-        <p>Welcome to GreatStack 2</p>
+        <p class="second">Welcome to GreatStack 2</p>
         <p>Welcome to GreatStack 3</p>
         <p>Welcome to GreatStack 4</p>
     </div>
 
     <script>
-        let parent = document.querySelector(".title");
-        
-        console.log(parent.firstChild);
+        let second = document.querySelector(".second");
+
+        console.log(second.previousElementSibling);
     </script>
 </body>
 </html>
