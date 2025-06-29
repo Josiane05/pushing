@@ -3,19 +3,15 @@
 <head>
     <title>GreatStack</title>
 </head>
-
-<body>
-    <div class="title">
-        <p>Welcome to GreatStack 1</p>
-        <p class="second">Welcome to GreatStack 2</p>
-        <p>Welcome to GreatStack 3</p>
-        <p>Welcome to GreatStack 4</p>
-    </div>
+ <body>
 
     <script>
-        let second = document.querySelector(".second");
+        let div = document.createElement("div");
+        div.innerHTML = "<P> Welcome to Great Stack</P>";
+        
+        document.body.appendChild("div");
 
-        console.log(second.nextElementSibling);
+        console.log(div);
     </script>
-</body>
+ </body>
 </html>
