@@ -8,16 +8,13 @@
         <li>Home</li>
         <li>About</li>
         <li>blog</li>
-        <li>Project</li>
+        <li style="display: none;">Project</li>
     </ul>
 
     <script>
         let menu = document.getElementById("menu");
-
-        let list = document.createElement("li");
-        list.innerHTML = "Contact";
-
-        menu.appendChild(list);
+        
+        console.log(menu.textContent);
     </script>
  </body>
 </html>
