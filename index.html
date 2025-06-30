@@ -14,8 +14,8 @@
     <script>
         let menu = document.getElementById("menu");
         
-        let newNode = menu.cloneNode();
-        console.log(newNode);
+        menu.removeChild(menu.lastElementChild);
+        console.log(menu);
     </script>
  </body>
 </html>
