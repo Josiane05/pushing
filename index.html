@@ -2,14 +2,19 @@
 <html>
 <head>
     <title>GreatStack</title>
+    <style>
+        input  {
+            background-color: red;
+            font-size: 12px;
+        }
+    </style>
 </head>
  <body>
-    <input type="text" id="username" placeholder="username" style="background-color: red; font-size: 20px;">
+    <input type="text" id="username" placeholder="username">
 
     <script>
         let inputBox = document.getElementById("username");
-        inputBox.style.cssText += "width:200px; height: 100px";
-        console.log(inputBox);
+        console.log(window.getComputedStyle(inputBox));
     </script>
  </body>
 </html>
