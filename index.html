@@ -6,10 +6,14 @@
 </head>
  <body>
     <div id="container">
-        <botton id="btn"type="botton"
-         onclick="console.log ('id')
-
+        <botton id="btn">click here</botton>
     </div>
+    <script>
+        let btn = document.getElementById("btn");
+        btn.onclick = function(){
+            console.log("botton clicked")
+        }
+    </script>
 
     
  </body>
