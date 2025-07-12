@@ -6,3 +6,6 @@ const person = {
 };
 
 person.walk();
+
+const walk = person.walk;
+console.log(walk);
