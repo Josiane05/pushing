@@ -1,8 +1,7 @@
-function sayHello() {
-    for (let i = 0; i < 5; i++){
-        console.log(i);
-    }
-}
+// var -> function
+// let -> block
+// const -> block
 
-console.log(i);
-sayHello()
+
+const x = 1;
+x = 2; 
