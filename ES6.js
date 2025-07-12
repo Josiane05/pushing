@@ -1,8 +1,7 @@
-const jobs = [
-    {id: 1,isActive: true },
-    {id: 2,isActive: true },
-    {id: 3,isActive: false },
-];
+const person = {
+    talk() {
+        console.log('this', this);
+    }
+};
 
-
-const activeJobs = jobs.filter(job =>job.isActive);
+person.talk();
