@@ -4,3 +4,7 @@ const second = [4, 5, 6];
 
 const combined = [...first, 'a', ...second, 'b']
 console.log(combined);
+
+const clone = [...first];
+console.log(first);
+console.log(clone);
