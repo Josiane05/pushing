@@ -1,11 +1,5 @@
-const colors = ['green','yellow','blue'];
-const items = colors.map(color =>`<li>${color}</li>` );
-console.log(items);
+const first = [1, 2, 3];
+const second = [4, 5, 6];
 
-const address = {
-    street: '',
-    city: '',
-    country: '',
-}
-
-const {street:st, city, country} = address;
+const combined = first.concat(second);
+console.log(combined);
