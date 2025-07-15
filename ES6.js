@@ -1,10 +1,3 @@
-const first = [1, 2, 3];
-const second = [4, 5, 6];
-
-
-const combined = [...first, 'a', ...second, 'b']
-console.log(combined);
-
-const clone = [...first];
-console.log(first);
-console.log(clone);
+const first = { name: 'JOSIANE'};
+const second = { job: 'IT'};
+const combined = {...first, ...second, location: 'Australia'};
