@@ -9,11 +9,14 @@ class person {
 }
 
 class teacher extends person {
-    constructor(name, degree) {}
+    constructor(name, degree) {
+        super(name);
+        this.degree = degree
+    }
 
     teach() {
         console.log("teach");
     }
-};
+}
 
-const teacher = new teacher("Mosh")
+const teacher = new teacher("Mosh", "Msc");
