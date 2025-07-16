@@ -1,7 +1,3 @@
-const first = { name: 'JOSIANE'};
-const second = { job: 'IT'};
-const clone = {...first};
-console.log(clone);
 
 class person {
     constructor(name) {
@@ -12,4 +8,12 @@ class person {
     }
 }
 
-const person = new person ('JOSIANE');
+class teacher extends person {
+    constructor(name, degree) {}
+
+    teach() {
+        console.log("teach");
+    }
+};
+
+const teacher = new teacher("Mosh")
