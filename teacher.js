@@ -1,3 +1,4 @@
+import ( person ) from ''
 export class teacher extends person {
     constructor(name, degree) {
         super(name);
