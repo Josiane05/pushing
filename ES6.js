@@ -1,4 +1,4 @@
-import { teacher } from "./teacher";
+import teacher, { promote } from "./teacher";
+import React, { component } from 'react'; 
 // default -> import ... from '';
-named -> import { ... } from '';
 const teacher = new teacher("Mosh", "Msc");
