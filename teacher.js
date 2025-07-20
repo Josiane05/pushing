@@ -1,4 +1,5 @@
-import ( person ) from ''
+import { person } from "./person";
+export function promote () {}
 export class teacher extends person {
     constructor(name, degree) {
         super(name);
