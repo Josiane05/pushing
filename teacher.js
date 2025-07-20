@@ -1,5 +1,5 @@
 import { person } from "./person";
-// export function promote () {}
+ export function promote () {}
 
 export default class teacher extends person {
     constructor(name, degree) {
