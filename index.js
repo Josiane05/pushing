@@ -45,3 +45,8 @@ console.log(div.childNodes);        // → NodeList of <p>Hello</p> and <p>World
 console.log(div.firstChild);        // → Could be a text node (like newline or space)
 console.log(div.firstElementChild); // → <p>Hello</p>
 console.log(div.lastElementChild);  // → <p>World</p>
+
+
+const kelvin = 293 ;
+//constant variable for kelvin
+const celsius = kelvin - 273 ;
