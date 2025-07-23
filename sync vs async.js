@@ -9,11 +9,17 @@
 
 // 2.promises => unique javascript object that allow you to make asynchronous operations
 
-function printMe() {
-    console.log('print me');
+function f1() {
+    console.log('f1');
 }
- function test() {
-    console.log('test');
- }
-setTimeout(printMe, 2000);
-test();
+
+function f2() {
+    console.log('f2');
+}
+function main() {
+    console.log('main')
+    setTimeout(f1,f2,2000);
+}
+
+main();
+
