@@ -12,7 +12,7 @@ function main() {
 
     new Promise(function (resolve, reject) {
     resolve('I am promise');
-}).then(resolve => console.log('resolve'));
+}).then(resolve => console.log('I am promise'));
 
 f2();
 }
