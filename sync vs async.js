@@ -8,3 +8,9 @@
 // setTimeout, mouse over, click
 
 // 2.promises => unique javascript object that allow you to make asynchronous operations
+
+function printMe() {
+    console.log('print me');
+}
+
+setTimeout(printMe, 2000);
