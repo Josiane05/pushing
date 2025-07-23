@@ -1,14 +1,10 @@
-function f1() {
-    // some codes 
-}
+// a synchronous => not accuring at the same time
 
-function f2() {
-    f1();
-}
+// fetch data from server
+// want to execute something with a delay
+// want to execute something after an event
 
-function f3() {
-    f2();
-}
+//  1.browser APIs / web APIs
+// setTimeout, mouse over, click
 
-// invoke the function
-f3();
+// 2.promises => unique javascript object that allow you to make asynchronous operations
