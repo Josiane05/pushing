@@ -15,7 +15,7 @@ function main() {
 }).then(resolve => console.log('I am promise'));
 
 f2();
-}
+};
 
 main();
 
