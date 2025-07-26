@@ -1,5 +1,5 @@
-// .then();
-// .catch();
+// .then(); => it return the promise from it,hansle reject scenario
+// .catch(); => it handle reject scenario
 // .finally();
 let promise = new promise(function (resolve, reject){
     //got the water
@@ -12,3 +12,5 @@ const grandParentCooking = () => {
     console.log(`cooking with $ {result}`);
 });
 }
+
+grandParentCooking();
