@@ -1,22 +1,13 @@
-function f1() {
-    console.log('f1');
-}
+console.log('introduction to Promises!');
 
-function f2() {
-    console.log('f2');
-}
-
-function main() {
-    console.log('main');
-    setTimeout(f1, 0);
-
-    new Promise(function (resolve, reject) {
-    resolve('I am promise');
-}).then(resolve => console.log('I am promise'));
-
-f2();
-};
-
-main();
+let promise = new promise(function (resolve, reject){
+    //got the water
+    let value = 'water'
+    resolve ('value');
+}); 
 
 
+let promiseError = new promise(function (resolve, reject){
+    //opps, jack fell down
+    reject(new Error("Disasters"));
+});
