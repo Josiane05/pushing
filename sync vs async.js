@@ -7,6 +7,8 @@ let promise = new promise(function (resolve, reject){
     resolve ('value');
 }); 
 
-promise.then(function(result) {
-    console.log(result);
+const grandParentCooking = () => { 
+    promise.then(function(result) {
+    console.log(`cooking with $ {result}`);
 });
+}
