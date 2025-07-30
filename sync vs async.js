@@ -1,7 +1,9 @@
 console.log('#3. callback');
 
-function foo(num) {
-    console.log(`foo $(num)`);
+function foo(bar) {
+    bar ();
 }
 
-foo(2);
+foo(function () {
+    console.log('bar');;
+});
