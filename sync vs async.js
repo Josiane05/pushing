@@ -37,4 +37,15 @@ let getUser = new Promise(function (resolve, reject) {
 getUser
 .then(function(user) {
     console.log(`Got user ${user.name}`);
-});
+
+    //return another promise with user address
+
+    return new Promise(function(resolve, reject) {
+        setTimeout(function(){
+            resolve('Bangalore');
+        }, 1000)
+    })
+})
+.then(function(address){
+    console.log(`user address is ${address}`);
+})
