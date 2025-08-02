@@ -1,19 +1,10 @@
-console.log('#3. callback');
 
-function foo(bar) {
-    bar ();
-}
+//promise chain
 
-foo(function () {
-    console.log('bar');;
+console.log('promise chain');
+
+//create promise
+
+const promise = new promise(function (resolve, reject) {
+    console.log('resolving fake promise');
 });
-
-orderPizza('vege', 'cheese');
-
-function orderPizza(type, name) {
-    console.log(`pizza ${type}, ${name} is ordered`);
-
-    setTimeout(function() {
-        console.log(`pizza ${type}, ${name} is ready`);
-    }, 3000);
-}
