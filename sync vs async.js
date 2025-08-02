@@ -40,12 +40,8 @@ getUser
 
     //return another promise with user address
 
-    return new Promise(function(resolve, reject) {
-        setTimeout(function(){
-            resolve('Bangalore');
-        }, 1000)
-    })
+    return user.email;
 })
-.then(function(address){
-    console.log(`user address is ${address}`);
+.then(function(email){
+    console.log(`user email is ${email}`);
 })
