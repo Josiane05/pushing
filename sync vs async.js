@@ -51,3 +51,20 @@ getUser
 .catch(function(error) {
     console.log(error);
 })
+
+const number = new promise(function(resolve, reject) {
+    resolve(10);
+})
+
+number.then(function(value) {
+    value++;
+    return value;
+}).then(function(value) {
+    value = value + 10;
+    return value;
+}).then(function(value){
+        value = value + 20;
+     console.log(value);    
+});
+
+
