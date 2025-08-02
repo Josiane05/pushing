@@ -5,7 +5,7 @@ console.log('promise chain');
 
 //create promise
 
-const promise = new promise(function (resolve, reject) {
+const promise = new Promise(function (resolve, reject) {
     reject(new Error('rejecting a fake promise'));
 });
 
@@ -17,3 +17,24 @@ promise.catch(function(error) {
 })
 
 //.catch()method it handle the rejected scenario
+
+
+// three tings you can do in .then()method
+//1. return another promise
+//2. return a synchronous promise
+//3. throw/return an Error
+
+//create a promise to get a user
+
+let getUser = new Promise(function (resolve, reject) {
+    const user = {
+        name: 'John Doe',
+        email: 'john@email.com',
+        password: 'password',
+    }
+    resolve (user);
+})
+getUser
+.then(function(user) {
+    console.log(`Got user ${user.name}`);
+});
