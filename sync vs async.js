@@ -31,6 +31,7 @@ let getUser = new Promise(function (resolve, reject) {
         name: 'John Doe',
         email: 'john@email.com',
         password: 'password',
+        permission: ['db', 'hr', 'dev']
     }
     resolve (user);
 })
@@ -40,8 +41,13 @@ getUser
 
     //return another promise with user address
 
-    return user.email;
+    if (user.permission.includes('hr')) {
+        throw new Error ('you are not allowed');
+    }
 })
 .then(function(email){
     console.log(`user email is ${email}`);
+})
+.catch(function(error) {
+    console.log(error);
 })
