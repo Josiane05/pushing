@@ -67,4 +67,8 @@ number.then(function(value) {
      console.log(value);    
 });
 
+//finally() handler method: it doesn't process the result beacause it doesnt pass any result to the next handler
 
+//Async/Await: they are keywords that make the usage of of promises dramatically easy, they just contribute to enhance the javascript language synthax it doesnt introduce any new programing concept
+ //- we use Async to return a  promise 
+ //- we use Await to wait and handle promise
