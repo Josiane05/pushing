@@ -78,3 +78,10 @@ number.then(function(value) {
 
     return {'name': 'Robin','like': ['pizza']};
  }
+
+ async function caller() {
+    const user = await fetchUserDetails ();
+    console.log(user);
+ }
+
+ caller();
