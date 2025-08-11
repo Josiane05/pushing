@@ -78,10 +78,12 @@ number.then(function(value) {
 
     return {'name': 'Robin','like': ['pizza']};
  }
-
+//rules for await
+//1. you cannot use the await keyword on the regular non sync function
  async function caller() {
     const user = await fetchUserDetails ();
     console.log(user);
  }
 
  caller();
+ //2.
