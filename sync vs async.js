@@ -86,4 +86,12 @@ number.then(function(value) {
  }
 
  caller();
- //2.
+ 
+ function getHi () {
+    return "hi";
+ }
+
+ async function caller1 (){
+    const message = await getHi ();
+    console.log(message);
+ }
