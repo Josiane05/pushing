@@ -93,5 +93,5 @@ number.then(function(value) {
 
  async function caller1 (){
     const message = await getHi ();
-    console.log(message);
+    console.log(message1);
  }
