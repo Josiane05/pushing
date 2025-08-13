@@ -93,5 +93,13 @@ number.then(function(value) {
 
  async function caller1 (){
     const message = await getHi ();
-    console.log(message1);
+    console.log(message);
  }
+
+ const validateUser = ({userId, password}) => {
+    return new promise((resolve, reject) => {
+        if (userId && password) {
+            resolve('autheticated')
+        }
+    }
+ }  
