@@ -100,6 +100,15 @@ number.then(function(value) {
     return new promise((resolve, reject) => {
         if (userId && password) {
             resolve('autheticated')
-        }
-    }
+        } else reject({message: 'userId or password is missing'});
+    })
  }  
+
+ const app = sync () => {
+    const data = {
+        userId:'',
+        password:''
+    }
+    const result = await validateUser (data);
+    console.log(result);
+}
