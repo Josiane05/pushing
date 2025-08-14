@@ -104,7 +104,7 @@ number.then(function(value) {
     })
  }  
 
- const app = sync () => {
+ const app = async () => {
     const data = {
         userId:'',
         password:''
